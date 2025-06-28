@@ -1,25 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Gestor de Tareas - PFO 2</title>
-    <style>
-        body { font-family: sans-serif; max-width: 600px; margin: auto; padding-top: 40px; }
-        h1 { color: #2c3e50; }
-    </style>
+  <meta charset="UTF-8">
+  <title>Gestor de Tareas - PFO 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      line-height: 1.6;
+      color: #2c3e50;
+    }
+    h1, h2 {
+      color: #34495e;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    .enlace {
+      color: #2980b9;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <h1>📌 Sistema de Gestión de Tareas</h1>
-    <p>Este proyecto implementa una API REST usando Flask + SQLite con autenticación y cliente de consola.</p>
-    <h3>⚙️ Funcionalidades</h3>
-    <ul>
-        <li>Registro de usuarios (con contraseñas hasheadas)</li>
-        <li>Inicio de sesión seguro</li>
-        <li>HTML de bienvenida y estructura de tareas</li>
-        <li>Cliente de consola Python</li>
-    </ul>
-    <h3>📷 Capturas</h3>
-    <p>¡Revisá la carpeta <code>/capturas</code> para ver las pruebas exitosas!</p>
-    <p>Repositorio: <a href="https://github.com/tu_usuario/tu_repo" target="_blank">GitHub</a></p>
+
+  <h1>🗂️ Sistema de Gestión de Tareas</h1>
+  <p>Este proyecto fue desarrollado para el trabajo práctico PFO 2, e implementa una API REST en Flask con autenticación, manejo de base de datos en SQLite y un cliente en consola para interactuar con los endpoints.</p>
+
+  <h2>⚙️ Funcionalidades</h2>
+  <ul>
+    <li>Registro de usuarios con contraseña hasheada</li>
+    <li>Inicio de sesión seguro</li>
+    <li>Creación y visualización de tareas por usuario</li>
+    <li>Cliente de consola en Python</li>
+    <li>Capturas de pruebas en carpeta <code>/capturas</code></li>
+  </ul>
+
+  <h2>📍 Endpoints principales</h2>
+  <ul>
+    <li><code>POST /registro</code> — Registrar usuario</li>
+    <li><code>POST /login</code> — Iniciar sesión</li>
+    <li><code>POST /tareas</code> — Crear tarea</li>
+    <li><code>GET /tareas?usuario=nombre</code> — Ver tareas</li>
+  </ul>
+
+  <h2>📦 Estructura del proyecto</h2>
+  <pre>
+gestor_tareas_api/
+├── servidor.py
+├── cliente.py
+├── base_datos.db
+├── requirements.txt
+├── README.md
+├── index.html
+└── capturas/
+  </pre>
+
+  <h2>📷 Capturas destacadas</h2>
+  <ul>
+    <li>Registro de usuario</li>
+    <li>Login válido y login fallido</li>
+    <li>Creación y listado de tareas</li>
+    <li>Vista del cliente en consola</li>
+  </ul>
+
+  <h2>📚 Enlaces</h2>
+  <ul>
+    <li><a class="enlace" href="https://github.com/AgusKopis/Proyecto_Gestion_De_Tareas" target="_blank">Repositorio en GitHub</a></li>
+    <li><a class="enlace" href="https://AgusKopis.github.io/Proyecto_Gestion_De_Tareas/" target="_blank">Página del proyecto (GitHub Pages)</a></li>
+  </ul>
+
 </body>
 </html>
