@@ -34,8 +34,8 @@ gestor_tareas_api/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/AgusKopis/Proyecto_Gestion_De_Tareas.git
-cd Proyecto_Gestor_De_Tareas
+git clone https://github.com/AgusKopis/Proyecto_Gestion_Tareas.git
+cd Proyecto_Gestor_Tareas
 
 # 2. Crear entorno virtual
 python -m venv venv
@@ -71,6 +71,6 @@ Listado de tareas
 Menú en cliente por consola
 
 🌐 Enlaces
-Repositorio: https://github.com/AgusKopis/Proyecto_Gestio_de_Tareas
+Repositorio: https://github.com/AgusKopis/Proyecto_Gestion_Tareas
 
-GitHub Pages: https://AgusKopis.github.io/Proyecto_Gestion_De_Tareas/
+GitHub Pages: https://AgusKopis.github.io/Proyecto_Gestion_Tareas/
